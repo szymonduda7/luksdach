@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LuksDach Łukasz Bułek | Ciesielstwo, Dekarstwo, Wiązary CNC, Dźwigi, Zwyżki – Turze</title>
+<meta name="description" content="LuksDach: usługi ciesielskie, dekarskie, wiązary dachowe CNC, wynajem dźwigu i zwyżki. Budowa i remonty dachów, budowa domów od podstaw. Turze i okolice, powiat raciborski. Ocena 4,6 na Google (20 opinii)." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2317181A' rx='6'/%3E%3Cpath d='M6 20 L16 9 L26 20' stroke='%23F5610A' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "LuksDach Łukasz Bułek",
+  "image": "",
+  "telephone": "+48608349248",
+  "email": "luksdach@wp.pl",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Raciborska 51",
+    "postalCode": "47-420",
+    "addressLocality": "Turze",
+    "addressCountry": "PL"
+  },
+  "areaServed": "Turze, powiat raciborski i okolice",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "13:00" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "20"
+  }
+}
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg">Przejdź do treści</a>
+
+<!-- NAV -->
+<header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b hairline">
+  <div class="max-w-6xl mx-auto px-5 md:px-8 h-[68px] flex items-center justify-between">
+    <a href="#main" class="flex items-center gap-3 group">
+      <img src="images/logo-icon.webp" alt="" class="brand-logo" aria-hidden="true">
+      <span class="leading-none">
+        <span class="font-display text-xl tracking-tight block" style="letter-spacing:-0.02em;"><span style="color:var(--orange)">Luks</span><span style="color:var(--ink)">Dach</span></span>
+        <span class="hidden sm:block text-[0.68rem] font-medium tracking-wide" style="color:var(--ink-soft)">Łukasz Bułek</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="#uslugi" class="nav-link">Usługi</a>
+      <a href="#realizacje" class="nav-link">Realizacje</a>
+      <a href="#opinie" class="nav-link">Opinie</a>
+      <a href="#obszar" class="nav-link">Obszar działania</a>
+      <a href="#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:+48608349248" class="nav-call btn btn-primary !py-2.5 !px-4 !text-sm">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>608 349 248</span>
+    </a>
+    <button type="button" id="menuToggle" class="nav-toggle items-center justify-center w-10 h-10 rounded-lg border hairline" aria-expanded="false" aria-controls="mobileMenu" aria-label="Otwórz menu">
+      <svg id="iconMenuOpen" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      <svg id="iconMenuClose" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<div id="menuBackdrop" class="menu-backdrop" style="position:fixed; inset:0; top:68px; z-index:30; background:rgba(23,24,26,.4);"></div>
+<div id="mobileMenu" class="mobile-menu" style="position:fixed; top:68px; left:0; right:0; z-index:35; background:#fff; border-bottom:1px solid var(--line); box-shadow:0 20px 34px -22px rgba(23,24,26,.3);">
+  <nav class="max-w-6xl mx-auto px-5">
+    <a href="#uslugi" class="mobile-nav-link">Usługi</a>
+    <a href="#realizacje" class="mobile-nav-link">Realizacje</a>
+    <a href="#opinie" class="mobile-nav-link">Opinie</a>
+    <a href="#obszar" class="mobile-nav-link">Obszar działania</a>
+    <a href="#kontakt" class="mobile-nav-link">Kontakt</a>
+  </nav>
+</div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-5 md:px-8 pt-16 pb-6 md:pt-24 md:pb-10">
+      <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-14 items-center">
+        <div>
+          <p class="eyebrow mb-5">Ciesielstwo · Dekarstwo · Wiązary CNC · Dźwigi · Zwyżki · Turze</p>
+          <h1 class="font-display text-[2.6rem] leading-[0.94] sm:text-[3.5rem] lg:text-[4.25rem]" style="color:var(--ink)">
+            Dach, więźba, dźwig.<br><span style="color:var(--orange)">Jedna solidna ekipa.</span>
+          </h1>
+          <p class="mt-7 text-lg leading-[1.7] max-w-xl" style="color:var(--ink-soft)">
+            Wiązary dachowe cięte CNC, ciesielstwo, krycie i remonty dachów, budowa domów od podstaw oraz wynajem dźwigu
+            i zwyżki. Działamy solidnie i terminowo w Turzu i całej okolicy.
+          </p>
+          <div class="mt-9 flex flex-wrap items-center gap-4">
+            <a href="tel:+48608349248" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Zadzwoń: 608 349 248
+            </a>
+            <a href="#opinie" class="btn btn-ghost">Zobacz opinie klientów</a>
+          </div>
+
+          <div class="mt-12 flex items-center gap-3">
+            <div class="flex items-center gap-1" aria-hidden="true">
+              <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+              <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+              <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+              <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+              <span class="relative inline-block" style="width:20px; height:20px;" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--line)" stroke-width="1.5" style="position:absolute; inset:0;"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+                <span style="position:absolute; inset:0; width:60%; overflow:hidden;">
+                  <svg class="star" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+                </span>
+              </span>
+            </div>
+            <p class="text-sm font-medium" style="color:var(--ink-soft)"><span class="font-display text-base" style="color:var(--ink)">4,6</span> · 20 opinii w Google</p>
+          </div>
+        </div>
+
+        <div class="relative mt-2 lg:mt-0">
+          <div class="rounded-2xl overflow-hidden" style="aspect-ratio:4/5; box-shadow:0 1px 2px rgba(23,24,26,.08), 0 32px 54px -26px rgba(23,24,26,.4);">
+            <img src="images/1.webp" alt="Ekipa LuksDach przy montażu więźby dachowej, samochody serwisowe na placu budowy" class="w-full h-full" style="object-fit:cover;">
+          </div>
+          <div class="absolute -bottom-5 -left-5 hidden sm:flex items-center gap-3 bg-white rounded-xl px-4 py-3" style="box-shadow:0 1px 2px rgba(23,24,26,.08), 0 20px 32px -18px rgba(23,24,26,.3); border:1px solid var(--line);">
+            <div class="icon-ring" style="width:2.5rem; height:2.5rem; border-radius:0.6rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <p class="text-sm font-semibold" style="color:var(--ink)">Nasza realizacja</p>
+              <p class="text-xs" style="color:var(--ink-soft)">Turze</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="roofline mt-10 md:mt-14" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,90 L0,58 L120,26 L240,58 L360,18 L480,54 L600,24 L720,58 L840,22 L960,56 L1080,20 L1200,54 L1320,26 L1440,58 L1440,90 Z" fill="#F5F5F3"/>
+      <polyline points="0,58 120,26 240,58 360,18 480,54 600,24 720,58 840,22 960,56 1080,20 1200,54 1320,26 1440,58" fill="none" stroke="#F5610A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    </svg>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="uslugi" class="pb-20 md:pb-28" style="background:var(--mist)">
+    <div class="max-w-6xl mx-auto px-5 md:px-8">
+      <div class="max-w-2xl">
+        <p class="eyebrow mb-4">Zakres usług</p>
+        <h2 class="font-display text-4xl md:text-5xl" style="color:var(--ink)">Od więźby po gotowy dach,<br>i wszystko dookoła.</h2>
+        <p class="mt-6 text-base leading-[1.7]" style="color:var(--ink-soft)">
+          LuksDach łączy ciesielstwo, dekarstwo i wynajem sprzętu wysokościowego w jednej firmie. Niezależnie od tego,
+          czy potrzebujesz wiązarów CNC, nowego pokrycia czy dźwigu na budowę, jesteśmy gotowi pomóc.
+        </p>
+      </div>
+
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        <a href="uslugi/ciesielstwo-dachowe.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 4 4 20"/>
+              <path d="M12 4 20 20"/>
+              <path d="M8.5 14h7"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Konstrukcje</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Ciesielstwo dachowe</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Więźby drewniane, altany i wiaty wykonane w tradycyjnej ciesielskiej sztuce, dopasowane do każdej bryły dachu.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="uslugi/wiazary-cnc.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="10" width="18" height="4.5" rx="1"/>
+              <path d="M11.2 7.5v-2M11.2 18.5v-2" stroke-dasharray="1 2.4"/>
+              <path d="M7.5 6.5v2.5M7.5 15v2.5M15 6.5v2.5M15 15v2.5"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Prefabrykacja</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Wiązary dachowe CNC</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Precyzyjnie cięte wiązary dachowe, projektowane pod konkretną więźbę i dostarczane gotowe do montażu.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="uslugi/dekarstwo.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 11 12 3l9 8"/>
+              <path d="M5 10v10h14V10"/>
+              <path d="M10 20v-5h4v5"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Krycie i naprawa</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Dekarstwo i remonty dachów</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Krycie dachówką, blachodachówką i blachą na rąbek, a także naprawy i kompleksowa modernizacja starych dachów.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="uslugi/budowa-domow.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 18v-1.5a8 8 0 0 1 16 0V18"/>
+              <path d="M2 18h20"/>
+              <path d="M12 6.5V4"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Od podstaw</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Budowa domów od podstaw</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Stan surowy, więźba i pokrycie dachu w ramach jednej, skoordynowanej realizacji budowy domu.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="uslugi/wynajem-dzwigu.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 21V4"/>
+              <path d="M5 5h13"/>
+              <path d="M9 5v3"/>
+              <path d="M18 5v3.5"/>
+              <circle cx="18" cy="10" r="1.3"/>
+              <path d="M18 11.3V16"/>
+              <path d="M2 21h20"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Transport wysokościowy</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Wynajem dźwigu</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Podnoszenie i montaż więźby, wiązarów i materiałów budowlanych na wysokość, sprawnie i bezpiecznie.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="uslugi/wynajem-zwyzki.html" class="card p-7 block">
+          <div class="icon-ring mb-5">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="14.5" y="3" width="7" height="5.5" rx="1"/>
+              <path d="M14.5 5.8h-3"/>
+              <path d="M8.5 18.5 17 8.8"/>
+              <rect x="2.5" y="16.5" width="6" height="4.5" rx="1"/>
+              <path d="M2.5 21h19"/>
+            </svg>
+          </div>
+          <p class="eyebrow mb-1">Praca na wysokości</p>
+          <h3 class="font-display text-2xl mb-2" style="color:var(--ink)">Wynajem zwyżki</h3>
+          <p class="text-sm leading-[1.7]" style="color:var(--ink-soft)">Bezpieczny i szybki dostęp do dachu, elewacji i koron drzew, bez stawiania rusztowań.</p>
+          <span class="card-link-arrow">Dowiedz się więcej <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REALIZACJE (gallery slider, styled after S&S Meble) -->
+  <section id="realizacje" class="py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-5 md:px-8">
+      <div class="max-w-2xl mb-14">
+        <p class="eyebrow mb-4">Realizacje</p>
+        <h2 class="font-display text-4xl md:text-5xl" style="color:var(--ink)">Zdjęcia prac<br>prosto z budowy.</h2>
+        <p class="mt-6 text-base leading-[1.7]" style="color:var(--ink-soft)">
+          Wybrane realizacje z ostatnich miesięcy: od więźby ciętej CNC po gotowe pokrycie dachu i pracę na wysokości.
+        </p>
+      </div>
+
+      <div class="gallery-wrap">
+        <div class="gallery-viewport">
+          <div class="gallery-track" id="galleryTrack">
+            <div class="gallery-slide"><img src="images/1.webp" alt="Ekipa LuksDach przy montażu więźby dachowej, samochody serwisowe na budowie" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/2.webp" alt="Realizacja pokrycia dachowego, dom w trakcie budowy" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/3.webp" alt="Dach kryty dachówką ceramiczną, realizacja LuksDach" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/4.webp" alt="Ekipa LuksDach podczas montażu pokrycia dachowego" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/5.webp" alt="Konstrukcja dachu w trakcie realizacji" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/6.webp" alt="Dom po zakończeniu prac dekarskich LuksDach" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/7.webp" alt="Więźba dachowa przygotowana do pokrycia" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/8.webp" alt="Pokrycie dachu dachówką, widok z lotu ptaka" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/9.webp" alt="Ukończony dach kryty dachówką ceramiczną" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/10.webp" alt="Realizacja dachu wielospadowego LuksDach" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/11.webp" alt="Wiązary dachowe gotowe do montażu i samochód serwisowy LuksDach" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/12.webp" alt="Prace ciesielskie przy konstrukcji dachu" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/13.webp" alt="Zwyżka podczas prac dekarskich na wysokości" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/14.webp" alt="Konstrukcja więźby dachowej z sygnaturą LuksDach na belce" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/15.webp" alt="Dom w trakcie remontu dachu" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/16.webp" alt="Dach kryty dachówką z obróbką komina" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/17.webp" alt="Prace dekarskie na dachu wielospadowym" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/18.webp" alt="Drewniana altana z dachem wykonana przez LuksDach" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/19.webp" alt="Ukończony dach domu jednorodzinnego" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/20.webp" alt="Montaż dachu na rąbek stojący, ekipa na wysokości" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/21.webp" alt="Dźwig podczas montażu więźby dachowej na budowie" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/22.webp" alt="Dom po zakończeniu prac dekarskich, dach kryty dachówką" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/23.webp" alt="Wiązary dachowe w trakcie montażu więźby" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/24.webp" alt="Ekipa LuksDach przy pracach dekarskich" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/25.webp" alt="Obróbka blacharska i rynny na dachu krytym na rąbek" loading="lazy"></div>
+          </div>
+
+          <button type="button" class="gallery-arrow gallery-arrow--prev" id="gallPrev" aria-label="Poprzednie zdjęcie">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <button type="button" class="gallery-arrow gallery-arrow--next" id="gallNext" aria-label="Następne zdjęcie">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <div class="gallery-counter" id="gallCounter" aria-live="polite">1 / 25</div>
+        </div>
+
+        <div class="gallery-thumbs-outer">
+          <div class="gallery-thumbs" id="galleryThumbs">
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 1"><img src="images/1.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 2"><img src="images/2.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 3"><img src="images/3.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 4"><img src="images/4.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 5"><img src="images/5.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 6"><img src="images/6.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 7"><img src="images/7.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 8"><img src="images/8.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 9"><img src="images/9.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 10"><img src="images/10.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 11"><img src="images/11.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 12"><img src="images/12.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 13"><img src="images/13.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 14"><img src="images/14.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 15"><img src="images/15.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 16"><img src="images/16.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 17"><img src="images/17.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 18"><img src="images/18.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 19"><img src="images/19.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 20"><img src="images/20.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 21"><img src="images/21.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 22"><img src="images/22.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 23"><img src="images/23.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 24"><img src="images/24.webp" alt="" loading="lazy"></button>
+            <button type="button" class="gallery-thumb" aria-label="Zdjęcie 25"><img src="images/25.webp" alt="" loading="lazy"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="corrugated py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-5 md:px-8">
+      <p class="eyebrow mb-4" style="color:var(--orange-light)">Dlaczego LuksDach</p>
+      <h2 class="font-display text-4xl md:text-5xl text-white max-w-2xl">Czym wyróżniamy się<br>spośród innych firm dekarskich.</h2>
+
+      <div class="mt-14 grid md:grid-cols-3 gap-10 md:gap-8">
+        <div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="mb-4"><path d="M3 21 12 3l9 18"/><path d="M7.5 13h9"/></svg>
+          <p class="eyebrow mb-2">Zakres</p>
+          <h3 class="font-display text-2xl text-white mb-2">Wszystko pod jednym dachem</h3>
+          <p class="text-sm leading-[1.7] text-white/65">Więźba, wiązary CNC, pokrycie i własny dźwig ze zwyżką, bez angażowania kilku podwykonawców.</p>
+        </div>
+        <div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="mb-4"><path d="M12 3l7 3v6c0 4.8-3 8.4-7 9.5-4-1.1-7-4.7-7-9.5V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          <p class="eyebrow mb-2">Jakość</p>
+          <h3 class="font-display text-2xl text-white mb-2">Solidność wykonania</h3>
+          <p class="text-sm leading-[1.7] text-white/65">Zespół specjalistów gotowy sprostać największym wyzwaniom związanym z dachem i konstrukcją Twojego domu.</p>
+        </div>
+        <div>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="mb-4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <p class="eyebrow mb-2">Czas</p>
+          <h3 class="font-display text-2xl text-white mb-2">Terminowość</h3>
+          <p class="text-sm leading-[1.7] text-white/65">Działamy z zaangażowaniem, a ustalony termin to termin, na który możesz liczyć.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS (carousel styled after S&S Meble) -->
+  <section class="reviews-panel py-20 md:py-28" id="opinie">
+    <div class="max-w-6xl mx-auto px-5 md:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p class="eyebrow mb-4">Opinie klientów</p>
+        <h2 class="font-display text-4xl md:text-5xl text-white">Zdaniem osób,<br>które już nas poznały.</h2>
+        <div class="reviews-meta">
+          <span class="star-row" aria-hidden="true">★★★★★</span>
+          <strong>4,6</strong>
+          <span class="muted">na podstawie 20 opinii Google · 5,0 na Panorama Firm (8 opinii)</span>
+        </div>
+      </div>
+
+      <div class="reviews-carousel-wrap">
+        <div class="reviews-carousel" id="reviewsCarousel" aria-live="polite">
+          <div class="reviews-track" id="reviewsTrack">
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Dach wykonany bardzo dobrze i estetycznie. Ekipa pracowita i trzymająca porządek na budowie, kontakt z właścicielem bez zarzutu. Pan Łukasz zna się na swoim fachu. Niczym nie trzeba było się martwić. Polecam tę firmę."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--orange)">SJ</div>
+                <div class="review-card__info"><strong>Szymon Jordan</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Jestem bardzo zadowolona ze współpracy z firmą LuksDach. Dach został wykonany solidnie, terminowo i z dbałością o każdy szczegół. Ekipa była fachowa i rzetelna."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--ink-soft)">ES</div>
+                <div class="review-card__info"><strong>Elżbieta Skawińska</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Polecam serdecznie tę firmę, jeśli ktoś chce mieć solidnie zrobiony dach. Firma rzetelna, świetny kontakt, terminowość, profesjonalizm. Robota zrobiona na 6+."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--gold)">PM</div>
+                <div class="review-card__info"><strong>Paulina Marek</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Usługa wykonana profesjonalnie, szybko oraz terminowo. Polecam Łukasza i chłopaków."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--orange)">JT</div>
+                <div class="review-card__info"><strong>Jakub Tomala</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Wszystko w porządku, pełen profesjonalizm i zaangażowanie. Dziękuję za udaną współpracę."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--ink-soft)">PJ</div>
+                <div class="review-card__info"><strong>Piotr Jarosz</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Jestem bardzo zadowolona, szef i ekipa na medal. Dach przepiękny i dobrze wykonany."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--gold)">WP</div>
+                <div class="review-card__info"><strong>Weronika Pasztaleniec</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"W pełni zadowolony z usług tej firmy. Zwarci, gotowi do pracy pracownicy."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--orange)">DW</div>
+                <div class="review-card__info"><strong>Dariusz Wuttke</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Bardzo dobra, rzetelna i terminowa firma. Szczerze polecam."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--ink-soft)">AM</div>
+                <div class="review-card__info"><strong>Artur Mainka</strong><span>Google</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Kiedy szukaliśmy firmy, która wykona nam dach, znajomi polecili nam LuksDach i to był strzał w dziesiątkę! Profesjonaliści pod każdym względem."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--orange)">PF</div>
+                <div class="review-card__info"><strong>Zweryfikowany klient</strong><span>Panorama Firm</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Specjaliści jeśli chodzi o montaż dachów, zaprojektowali i wykonali wszystko na najwyższym poziomie, jesteśmy bardzo zadowoleni z obsługi."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--gold)">PF</div>
+                <div class="review-card__info"><strong>Zweryfikowany klient</strong><span>Panorama Firm</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Przeprowadzali u nas niezbędny remont dachu, wszelkie prace przebiegły bez zastrzeżeń. Dach jest jak nowy!"</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--ink-soft)">PF</div>
+                <div class="review-card__info"><strong>Zweryfikowany klient</strong><span>Panorama Firm</span></div>
+              </div>
+            </div>
+
+            <div class="review-card">
+              <div class="star-row" aria-hidden="true" style="color:var(--gold)">★★★★★</div>
+              <blockquote class="review-card__text">"Wykonywali u nas montaż instalacji solarnej, wszystko działa bez zarzutu. Polecam."</blockquote>
+              <div class="review-card__author">
+                <div class="avatar" style="background:var(--orange)">PF</div>
+                <div class="review-card__info"><strong>Zweryfikowany klient</strong><span>Panorama Firm</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="reviews-controls">
+          <button class="reviews-btn" id="prevBtn" aria-label="Poprzednia opinia">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="reviews-dots" id="reviewsDots" role="tablist" aria-label="Opinie"></div>
+          <button class="reviews-btn" id="nextBtn" aria-label="Następna opinia">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section id="obszar" class="py-16 md:py-20" style="background:var(--orange)">
+    <div class="max-w-6xl mx-auto px-5 md:px-8 flex flex-col md:flex-row md:items-center gap-8 md:gap-12">
+      <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0" aria-hidden="true">
+        <path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/>
+        <circle cx="12" cy="9" r="2.5"/>
+      </svg>
+      <div>
+        <p class="eyebrow mb-2" style="color:rgba(255,255,255,.8)">Obszar działania</p>
+        <h2 class="font-display text-3xl md:text-4xl text-white mb-2">Turze i okolice.</h2>
+        <p class="text-white/85 leading-[1.7] max-w-2xl">Realizujemy zlecenia na terenie gminy Krzyżanowice oraz w powiecie raciborskim, w tym w okolicach Raciborza. Zadzwoń, żeby ustalić dostępność w Twojej miejscowości.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="kontakt" class="corrugated py-20 md:py-28">
+    <div class="max-w-6xl mx-auto px-5 md:px-8">
+      <div class="grid md:grid-cols-2 gap-12 md:gap-8">
+        <div>
+          <p class="eyebrow mb-4" style="color:var(--orange-light)">Umów wycenę</p>
+          <h2 class="font-display text-4xl md:text-5xl text-white mb-6">Porozmawiajmy<br>o Twoim dachu.</h2>
+          <p class="text-white/65 leading-[1.7] max-w-md mb-8">Skontaktuj się z nami i omów swoje potrzeby związane z dachem, więźbą lub wynajmem sprzętu. Odpowiemy i doradzimy najlepsze rozwiązanie.</p>
+          <a href="tel:+48608349248" class="font-display text-4xl sm:text-5xl block mb-2" style="color:var(--orange-light); letter-spacing:0.01em;">608 349 248</a>
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <a href="tel:+48608349248" class="btn btn-on-dark">Zadzwoń teraz</a>
+            <a href="https://wa.me/48608349248" class="btn btn-on-dark" target="_blank" rel="noopener">Napisz na WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="border-t md:border-t-0 md:border-l border-white/15 pt-10 md:pt-0 md:pl-10 flex flex-col gap-7">
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+            <div>
+              <p class="eyebrow mb-1">Właściciel</p>
+              <p class="text-white/85">Łukasz Bułek</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <p class="eyebrow mb-1">Adres</p>
+              <p class="text-white/85">Raciborska 51, 47-420 Turze</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            <div>
+              <p class="eyebrow mb-1">Godziny</p>
+              <p class="text-white/85">Pon–Pt 8:00–20:00 · Sob 8:30–13:00 · Niedziela zamknięte</p>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <p class="eyebrow mb-1">Telefon</p>
+              <a href="tel:+48608349248" class="text-white/85 hover:text-white transition-colors">608 349 248</a>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
+            <div>
+              <p class="eyebrow mb-1">E-mail</p>
+              <a href="mailto:luksdach@wp.pl" class="text-white/85 hover:text-white transition-colors">luksdach@wp.pl</a>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF8A3D" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="flex-shrink-0 mt-0.5"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.6 1.7 7-6.3-4-6.3 4 1.7-7L2 9.2l7.1-.6L12 2z"/></svg>
+            <div>
+              <p class="eyebrow mb-1">Ocena</p>
+              <p class="text-white/85">4,6 na Google (20 opinii) · 5,0 na Panorama Firm (8 opinii)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="py-8 border-t hairline">
+  <div class="max-w-6xl mx-auto px-5 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+    <p class="text-xs" style="color:var(--ink-soft)">&copy; 2026 LuksDach Łukasz Bułek</p>
+    <p class="text-xs" style="color:var(--ink-soft)">Raciborska 51, 47-420 Turze · 608 349 248</p>
+  </div>
+</footer>
+
+<!-- Mobile sticky call bar -->
+<div class="fixed bottom-0 inset-x-0 z-40 md:hidden bg-white border-t hairline px-4 py-3">
+  <a href="tel:+48608349248" class="btn btn-primary w-full justify-center">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Zadzwoń: 608 349 248
+  </a>
+</div>
+<div class="h-20 md:hidden" aria-hidden="true"></div>
+
+<script>
+(function(){
+  var track = document.getElementById('reviewsTrack');
+  var cards = track.querySelectorAll('.review-card');
+  var dotsWrap = document.getElementById('reviewsDots');
+  var prevBtn = document.getElementById('prevBtn');
+  var nextBtn = document.getElementById('nextBtn');
+  var current = 0;
+  var autoTimer;
+
+  cards.forEach(function(_, i){
+    var dot = document.createElement('button');
+    dot.className = 'review-dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('role', 'tab');
+    dot.setAttribute('aria-label', 'Opinia ' + (i + 1));
+    dot.addEventListener('click', function(){ goTo(i); });
+    dotsWrap.appendChild(dot);
+  });
+  var dots = dotsWrap.querySelectorAll('.review-dot');
+
+  function goTo(index){
+    current = (index + cards.length) % cards.length;
+    track.style.transform = 'translateX(-' + (current * 100) + '%)';
+    dots.forEach(function(d, i){ d.classList.toggle('active', i === current); });
+    resetTimer();
+  }
+  function next(){ goTo(current + 1); }
+  function prev(){ goTo(current - 1); }
+  nextBtn.addEventListener('click', next);
+  prevBtn.addEventListener('click', prev);
+
+  var touchStartX = 0, touchStartY = 0, horizLocked = false;
+  track.addEventListener('touchstart', function(e){
+    touchStartX = e.changedTouches[0].clientX;
+    touchStartY = e.changedTouches[0].clientY;
+    horizLocked = false;
+  }, { passive: true });
+  track.addEventListener('touchmove', function(e){
+    var dx = Math.abs(e.changedTouches[0].clientX - touchStartX);
+    var dy = Math.abs(e.changedTouches[0].clientY - touchStartY);
+    if (!horizLocked && dx > dy && dx > 5) horizLocked = true;
+    if (horizLocked) e.preventDefault();
+  }, { passive: false });
+  track.addEventListener('touchend', function(e){
+    if (!horizLocked) return;
+    var delta = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(delta) > 40) { delta > 0 ? next() : prev(); }
+    horizLocked = false;
+  });
+
+  function resetTimer(){
+    clearInterval(autoTimer);
+    autoTimer = setInterval(next, 5500);
+  }
+  resetTimer();
+  var wrap = document.querySelector('.reviews-carousel-wrap');
+  wrap.addEventListener('mouseenter', function(){ clearInterval(autoTimer); });
+  wrap.addEventListener('mouseleave', resetTimer);
+})();
+</script>
+
+<script>
+(function(){
+  var track = document.getElementById('galleryTrack');
+  if (!track) return;
+  var viewport = track.parentElement;
+  var slides = track.querySelectorAll('.gallery-slide');
+  var total = slides.length;
+  var thumbsEl = document.getElementById('galleryThumbs');
+  var thumbs = thumbsEl.querySelectorAll('.gallery-thumb');
+  var counter = document.getElementById('gallCounter');
+  var prevBtn = document.getElementById('gallPrev');
+  var nextBtn = document.getElementById('gallNext');
+  var current = 0;
+
+  function fixSlideWidths(){
+    var w = viewport.offsetWidth;
+    slides.forEach(function(s){ s.style.width = w + 'px'; s.style.minWidth = w + 'px'; });
+  }
+  function goTo(idx){
+    current = (idx + total) % total;
+    track.style.transform = 'translateX(-' + (current * viewport.offsetWidth) + 'px)';
+    counter.textContent = (current + 1) + ' / ' + total;
+    thumbs.forEach(function(t, i){ t.classList.toggle('active', i === current); });
+    if (thumbs[current]) thumbs[current].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
+  requestAnimationFrame(function(){
+    fixSlideWidths();
+    track.style.transform = 'translateX(0)';
+    counter.textContent = '1 / ' + total;
+    thumbs[0].classList.add('active');
+  });
+  window.addEventListener('resize', function(){
+    fixSlideWidths();
+    track.style.transition = 'none';
+    track.style.transform = 'translateX(-' + (current * viewport.offsetWidth) + 'px)';
+    requestAnimationFrame(function(){ track.style.transition = ''; });
+  }, { passive: true });
+
+  prevBtn.addEventListener('click', function(){ goTo(current - 1); });
+  nextBtn.addEventListener('click', function(){ goTo(current + 1); });
+  thumbs.forEach(function(t, i){ t.addEventListener('click', function(){ goTo(i); }); });
+
+  var gx = 0, gy = 0, gallLocked = false;
+  viewport.addEventListener('touchstart', function(e){
+    gx = e.changedTouches[0].clientX;
+    gy = e.changedTouches[0].clientY;
+    gallLocked = false;
+  }, { passive: true });
+  viewport.addEventListener('touchmove', function(e){
+    var dx = Math.abs(e.changedTouches[0].clientX - gx);
+    var dy = Math.abs(e.changedTouches[0].clientY - gy);
+    if (!gallLocked && dx > dy && dx > 5) gallLocked = true;
+    if (gallLocked) e.preventDefault();
+  }, { passive: false });
+  viewport.addEventListener('touchend', function(e){
+    if (!gallLocked) return;
+    var d = gx - e.changedTouches[0].clientX;
+    if (Math.abs(d) > 40) { d > 0 ? goTo(current + 1) : goTo(current - 1); }
+    gallLocked = false;
+  });
+})();
+</script>
+
+<script>
+(function(){
+  var btn = document.getElementById('menuToggle');
+  var menu = document.getElementById('mobileMenu');
+  var backdrop = document.getElementById('menuBackdrop');
+  var iconOpen = document.getElementById('iconMenuOpen');
+  var iconClose = document.getElementById('iconMenuClose');
+
+  function closeMenu(){
+    menu.classList.remove('open');
+    backdrop.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-label', 'Otwórz menu');
+    iconOpen.style.display = '';
+    iconClose.style.display = 'none';
+  }
+  function openMenu(){
+    menu.classList.add('open');
+    backdrop.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+    btn.setAttribute('aria-label', 'Zamknij menu');
+    iconOpen.style.display = 'none';
+    iconClose.style.display = '';
+  }
+  btn.addEventListener('click', function(){
+    btn.getAttribute('aria-expanded') === 'true' ? closeMenu() : openMenu();
+  });
+  backdrop.addEventListener('click', closeMenu);
+  menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeMenu); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeMenu(); });
+  window.addEventListener('resize', function(){ if (window.innerWidth >= 768) closeMenu(); });
+})();
+</script>
+
+</body>
+</html>
